@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.evilcorp.testcontainer</groupId>
+    <artifactId>test-containers</artifactId>
+    <version>1.0.0</version>
+    <name>Test Containers</name>
+    <packaging>pom</packaging>
+
+    <properties>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+    </properties>
+
+    <dependencies/>
+    <dependencyManagement/>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-parent</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+    <contributors>
+        <contributor>
+            <name>Faysal Alkharraz</name>
+            <email>faysalkharraz@gmail.com</email>
+        </contributor>
+    </contributors>
+</project>
